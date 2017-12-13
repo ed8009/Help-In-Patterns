@@ -49,6 +49,11 @@
 		807AB7341FE1602600B7DDC1 /* CentrallProcessor.m in Sources */ = {isa = PBXBuildFile; fileRef = 807AB7331FE1602600B7DDC1 /* CentrallProcessor.m */; };
 		807AB7371FE160E400B7DDC1 /* Thermometer.m in Sources */ = {isa = PBXBuildFile; fileRef = 807AB7361FE160E400B7DDC1 /* Thermometer.m */; };
 		807AB73A1FE1611400B7DDC1 /* ConditioningSystem.m in Sources */ = {isa = PBXBuildFile; fileRef = 807AB7391FE1611400B7DDC1 /* ConditioningSystem.m */; };
+		807AB7411FE1702200B7DDC1 /* StandardSubjectImplementation.m in Sources */ = {isa = PBXBuildFile; fileRef = 807AB7401FE1702200B7DDC1 /* StandardSubjectImplementation.m */; };
+		807AB7441FE170D700B7DDC1 /* SomeSubscriber.m in Sources */ = {isa = PBXBuildFile; fileRef = 807AB7431FE170D700B7DDC1 /* SomeSubscriber.m */; };
+		807AB7471FE1710200B7DDC1 /* OtherSubscriber.m in Sources */ = {isa = PBXBuildFile; fileRef = 807AB7461FE1710200B7DDC1 /* OtherSubscriber.m */; };
+		807AB74B1FE1731300B7DDC1 /* KVOSubject.m in Sources */ = {isa = PBXBuildFile; fileRef = 807AB74A1FE1731300B7DDC1 /* KVOSubject.m */; };
+		807AB74E1FE1732400B7DDC1 /* KVOObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = 807AB74D1FE1732400B7DDC1 /* KVOObserver.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -136,6 +141,18 @@
 		807AB7361FE160E400B7DDC1 /* Thermometer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Thermometer.m; sourceTree = "<group>"; };
 		807AB7381FE1611400B7DDC1 /* ConditioningSystem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConditioningSystem.h; sourceTree = "<group>"; };
 		807AB7391FE1611400B7DDC1 /* ConditioningSystem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ConditioningSystem.m; sourceTree = "<group>"; };
+		807AB73D1FE16F5700B7DDC1 /* StandardObserver.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StandardObserver.h; sourceTree = "<group>"; };
+		807AB73E1FE16FEF00B7DDC1 /* StandardSubject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StandardSubject.h; sourceTree = "<group>"; };
+		807AB73F1FE1702200B7DDC1 /* StandardSubjectImplementation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StandardSubjectImplementation.h; sourceTree = "<group>"; };
+		807AB7401FE1702200B7DDC1 /* StandardSubjectImplementation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StandardSubjectImplementation.m; sourceTree = "<group>"; };
+		807AB7421FE170D700B7DDC1 /* SomeSubscriber.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SomeSubscriber.h; sourceTree = "<group>"; };
+		807AB7431FE170D700B7DDC1 /* SomeSubscriber.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SomeSubscriber.m; sourceTree = "<group>"; };
+		807AB7451FE1710200B7DDC1 /* OtherSubscriber.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OtherSubscriber.h; sourceTree = "<group>"; };
+		807AB7461FE1710200B7DDC1 /* OtherSubscriber.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OtherSubscriber.m; sourceTree = "<group>"; };
+		807AB7491FE1731300B7DDC1 /* KVOSubject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KVOSubject.h; sourceTree = "<group>"; };
+		807AB74A1FE1731300B7DDC1 /* KVOSubject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KVOSubject.m; sourceTree = "<group>"; };
+		807AB74C1FE1732400B7DDC1 /* KVOObserver.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KVOObserver.h; sourceTree = "<group>"; };
+		807AB74D1FE1732400B7DDC1 /* KVOObserver.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KVOObserver.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -168,6 +185,7 @@
 		804408581FDFB9A4004FC53B /* patterns */ = {
 			isa = PBXGroup;
 			children = (
+				807AB73B1FE16EF900B7DDC1 /* Observer */,
 				807AB72E1FE15F8E00B7DDC1 /* Mediator */,
 				807AB7211FE15AD400B7DDC1 /* Facade */,
 				807AB7141FE13F9100B7DDC1 /* Bridge */,
@@ -343,6 +361,33 @@
 			path = Mediator;
 			sourceTree = "<group>";
 		};
+		807AB73B1FE16EF900B7DDC1 /* Observer */ = {
+			isa = PBXGroup;
+			children = (
+				807AB7481FE1730800B7DDC1 /* KVO */,
+				807AB73D1FE16F5700B7DDC1 /* StandardObserver.h */,
+				807AB73E1FE16FEF00B7DDC1 /* StandardSubject.h */,
+				807AB73F1FE1702200B7DDC1 /* StandardSubjectImplementation.h */,
+				807AB7401FE1702200B7DDC1 /* StandardSubjectImplementation.m */,
+				807AB7421FE170D700B7DDC1 /* SomeSubscriber.h */,
+				807AB7431FE170D700B7DDC1 /* SomeSubscriber.m */,
+				807AB7451FE1710200B7DDC1 /* OtherSubscriber.h */,
+				807AB7461FE1710200B7DDC1 /* OtherSubscriber.m */,
+			);
+			path = Observer;
+			sourceTree = "<group>";
+		};
+		807AB7481FE1730800B7DDC1 /* KVO */ = {
+			isa = PBXGroup;
+			children = (
+				807AB7491FE1731300B7DDC1 /* KVOSubject.h */,
+				807AB74A1FE1731300B7DDC1 /* KVOSubject.m */,
+				807AB74C1FE1732400B7DDC1 /* KVOObserver.h */,
+				807AB74D1FE1732400B7DDC1 /* KVOObserver.m */,
+			);
+			path = KVO;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -422,7 +467,9 @@
 				804408751FDFBA46004FC53B /* Toy.m in Sources */,
 				807AB7311FE15FA000B7DDC1 /* SmartHousePart.m in Sources */,
 				807AB6DF1FE1266D00B7DDC1 /* Person.m in Sources */,
+				807AB7471FE1710200B7DDC1 /* OtherSubscriber.m in Sources */,
 				804408851FDFBC22004FC53B /* GenericIPhone.m in Sources */,
+				807AB7411FE1702200B7DDC1 /* StandardSubjectImplementation.m in Sources */,
 				807AB71D1FE1400200B7DDC1 /* ExpensiveHeadphones.m in Sources */,
 				807AB71A1FE13FD700B7DDC1 /* CheapHeadphones.m in Sources */,
 				804408721FDFB9F8004FC53B /* Product.m in Sources */,
@@ -438,17 +485,20 @@
 				804408941FDFBD2F004FC53B /* AppleFactory.m in Sources */,
 				807AB6EF1FE129BE00B7DDC1 /* FactorySalesMan.m in Sources */,
 				8044087B1FDFBACE004FC53B /* ProductGenerator.m in Sources */,
+				807AB7441FE170D700B7DDC1 /* SomeSubscriber.m in Sources */,
 				804408781FDFBA52004FC53B /* Dress.m in Sources */,
 				807AB7091FE132F700B7DDC1 /* Charger.m in Sources */,
 				8044087F1FDFBBEE004FC53B /* IPhoneFactory.m in Sources */,
 				804408691FDFB9A4004FC53B /* main.m in Sources */,
 				807AB7201FE140A200B7DDC1 /* MusicPlayer.m in Sources */,
+				807AB74E1FE1732400B7DDC1 /* KVOObserver.m in Sources */,
 				804408881FDFBC68004FC53B /* AppleIPhone.m in Sources */,
 				807AB6FC1FE12F9C00B7DDC1 /* Bird.m in Sources */,
 				807AB7171FE13FA800B7DDC1 /* BaseHeadphones.m in Sources */,
 				807AB72D1FE15C3900B7DDC1 /* TravellSystemFacade.m in Sources */,
 				807AB70D1FE134BE00B7DDC1 /* EuropeanNotebookCharger.m in Sources */,
 				804408911FDFBCC1004FC53B /* ChinaPhone.m in Sources */,
+				807AB74B1FE1731300B7DDC1 /* KVOSubject.m in Sources */,
 				807AB7131FE1367B00B7DDC1 /* USANotebookEuropeanAdapter.m in Sources */,
 				807AB7101FE1363700B7DDC1 /* USANotebookCharger.m in Sources */,
 				807AB6E91FE128D700B7DDC1 /* LowPricePhoneBuilder.m in Sources */,

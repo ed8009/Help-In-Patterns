@@ -36,6 +36,13 @@
 
 #import "CentrallProcessor.h"
 
+#import "StandardSubjectImplementation.h"
+#import "SomeSubscriber.h"
+#import "OtherSubscriber.h"
+
+#import "KVOSubject.h"
+#import "KVOObserver.h"
+
 @interface ViewController ()
 
 @end
@@ -129,13 +136,30 @@
     [facade travellTo:@"Lviv"];
      */
     
-    // Mediator
+/* Mediator
     CentrallProcessor *proccessor = [[CentrallProcessor alloc] init];
     Thermometer *therm = [[Thermometer alloc] initWithCore:proccessor];
     ConditioningSystem *condSystem = [[ConditioningSystem alloc] initWithCore:proccessor];
     proccessor._condSystem = condSystem;
     proccessor._thermometer = therm;
     [therm temperatureChanged:45];
+    */
+    
+/* Observer
+    StandardSubjectImplementation *subj = [[StandardSubjectImplementation alloc] init];
+    SomeSubscriber *someSubscriber = [[SomeSubscriber alloc] init];
+    OtherSubscriber *otherSubscriber = [[OtherSubscriber alloc] init];
+    [subj addObserver:someSubscriber];
+    [subj addObserver: otherSubscriber];
+    [subj changeValue:@"strange value" andValue:@"newValue"];
+    */
+    
+    // KVO
+    KVOSubject *kvoSubj = [[KVOSubject alloc] init];
+    KVOObserver *kvoObserver = [[KVOObserver alloc] init];
+    [kvoSubj addObserver:kvoObserver forKeyPath:@"changeableProperty" options:NSKeyValueObservingOptionNew context:nil];
+    [kvoSubj setValue:@"new value" forKey:@"changeableProperty"];
+    [kvoSubj removeObserver:kvoObserver forKeyPath:@"changeableProperty"];
 }
 
 - (void)saveExpenses:(int)aPrice
