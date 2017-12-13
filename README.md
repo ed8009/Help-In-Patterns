@@ -10,6 +10,7 @@ You can see the following patterns:
 - Bridge
 - Facade
 - Mediator
+- Observer (+ KVO)
 
 I will be glad to see all your comments. 
 Examples are taken and collected from the wonderful book by Dima Maleev!
