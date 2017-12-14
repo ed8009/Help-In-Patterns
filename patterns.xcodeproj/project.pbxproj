@@ -54,6 +54,8 @@
 		807AB7471FE1710200B7DDC1 /* OtherSubscriber.m in Sources */ = {isa = PBXBuildFile; fileRef = 807AB7461FE1710200B7DDC1 /* OtherSubscriber.m */; };
 		807AB74B1FE1731300B7DDC1 /* KVOSubject.m in Sources */ = {isa = PBXBuildFile; fileRef = 807AB74A1FE1731300B7DDC1 /* KVOSubject.m */; };
 		807AB74E1FE1732400B7DDC1 /* KVOObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = 807AB74D1FE1732400B7DDC1 /* KVOObserver.m */; };
+		807AB7531FE2987E00B7DDC1 /* LeafObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 807AB7521FE2987E00B7DDC1 /* LeafObject.m */; };
+		807AB7561FE298F600B7DDC1 /* Container.m in Sources */ = {isa = PBXBuildFile; fileRef = 807AB7551FE298F600B7DDC1 /* Container.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -153,6 +155,11 @@
 		807AB74A1FE1731300B7DDC1 /* KVOSubject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KVOSubject.m; sourceTree = "<group>"; };
 		807AB74C1FE1732400B7DDC1 /* KVOObserver.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KVOObserver.h; sourceTree = "<group>"; };
 		807AB74D1FE1732400B7DDC1 /* KVOObserver.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KVOObserver.m; sourceTree = "<group>"; };
+		807AB7501FE2984C00B7DDC1 /* CompositeObjectProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CompositeObjectProtocol.h; sourceTree = "<group>"; };
+		807AB7511FE2987E00B7DDC1 /* LeafObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LeafObject.h; sourceTree = "<group>"; };
+		807AB7521FE2987E00B7DDC1 /* LeafObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LeafObject.m; sourceTree = "<group>"; };
+		807AB7541FE298F600B7DDC1 /* Container.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Container.h; sourceTree = "<group>"; };
+		807AB7551FE298F600B7DDC1 /* Container.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Container.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -185,6 +192,7 @@
 		804408581FDFB9A4004FC53B /* patterns */ = {
 			isa = PBXGroup;
 			children = (
+				807AB74F1FE292E100B7DDC1 /* Composite */,
 				807AB73B1FE16EF900B7DDC1 /* Observer */,
 				807AB72E1FE15F8E00B7DDC1 /* Mediator */,
 				807AB7211FE15AD400B7DDC1 /* Facade */,
@@ -388,6 +396,18 @@
 			path = KVO;
 			sourceTree = "<group>";
 		};
+		807AB74F1FE292E100B7DDC1 /* Composite */ = {
+			isa = PBXGroup;
+			children = (
+				807AB7501FE2984C00B7DDC1 /* CompositeObjectProtocol.h */,
+				807AB7511FE2987E00B7DDC1 /* LeafObject.h */,
+				807AB7521FE2987E00B7DDC1 /* LeafObject.m */,
+				807AB7541FE298F600B7DDC1 /* Container.h */,
+				807AB7551FE298F600B7DDC1 /* Container.m */,
+			);
+			path = Composite;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -472,6 +492,7 @@
 				807AB7411FE1702200B7DDC1 /* StandardSubjectImplementation.m in Sources */,
 				807AB71D1FE1400200B7DDC1 /* ExpensiveHeadphones.m in Sources */,
 				807AB71A1FE13FD700B7DDC1 /* CheapHeadphones.m in Sources */,
+				807AB7561FE298F600B7DDC1 /* Container.m in Sources */,
 				804408721FDFB9F8004FC53B /* Product.m in Sources */,
 				807AB6F31FE12C1000B7DDC1 /* SingletonObject.m in Sources */,
 				807AB6E61FE1287400B7DDC1 /* BPAndroidPhoneBuilder.m in Sources */,
@@ -492,6 +513,7 @@
 				804408691FDFB9A4004FC53B /* main.m in Sources */,
 				807AB7201FE140A200B7DDC1 /* MusicPlayer.m in Sources */,
 				807AB74E1FE1732400B7DDC1 /* KVOObserver.m in Sources */,
+				807AB7531FE2987E00B7DDC1 /* LeafObject.m in Sources */,
 				804408881FDFBC68004FC53B /* AppleIPhone.m in Sources */,
 				807AB6FC1FE12F9C00B7DDC1 /* Bird.m in Sources */,
 				807AB7171FE13FA800B7DDC1 /* BaseHeadphones.m in Sources */,

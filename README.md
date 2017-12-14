@@ -11,6 +11,7 @@ You can see the following patterns:
 - Facade
 - Mediator
 - Observer (+ KVO)
+- Composite
 
 I will be glad to see all your comments. 
 Examples are taken and collected from the wonderful book by Dima Maleev!

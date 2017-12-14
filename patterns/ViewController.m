@@ -43,6 +43,9 @@
 #import "KVOSubject.h"
 #import "KVOObserver.h"
 
+#import "Container.h"
+#import "LeafObject.h"
+
 @interface ViewController ()
 
 @end
@@ -154,12 +157,34 @@
     [subj changeValue:@"strange value" andValue:@"newValue"];
     */
     
-    // KVO
+/* KVO
     KVOSubject *kvoSubj = [[KVOSubject alloc] init];
     KVOObserver *kvoObserver = [[KVOObserver alloc] init];
     [kvoSubj addObserver:kvoObserver forKeyPath:@"changeableProperty" options:NSKeyValueObservingOptionNew context:nil];
     [kvoSubj setValue:@"new value" forKey:@"changeableProperty"];
     [kvoSubj removeObserver:kvoObserver forKeyPath:@"changeableProperty"];
+     */
+    
+/* Composite
+    Container *rootContainer = [[Container alloc] init];
+    LeafObject *object = [[LeafObject alloc] init];
+    object.leafValue = @"level1 value";
+    [rootContainer addComponent:object];
+    
+    Container *firstLevelContainer1 = [[Container alloc] init];
+    LeafObject *object2 = [[LeafObject alloc] init];
+    object2.leafValue = @"level2 value";
+    [firstLevelContainer1 addComponent:object2];
+    [rootContainer addComponent:firstLevelContainer1];
+    
+    Container *firstLevelContainer2 = [[Container alloc] init];
+    LeafObject *object3 = [[LeafObject alloc] init];
+    object3.leafValue = @"level2 value 2";
+    [firstLevelContainer2 addComponent:object3];
+    [rootContainer addComponent:firstLevelContainer2];
+    
+    NSLog(@"%@", rootContainer.getData);
+    */
 }
 
 - (void)saveExpenses:(int)aPrice
