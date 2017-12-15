@@ -12,6 +12,9 @@ You can see the following patterns:
 - Mediator
 - Observer (+ KVO)
 - Composite
+- Iterator
+- Visitor
+- Decorator
 
 I will be glad to see all your comments. 
 Examples are taken and collected from the wonderful book by Dima Maleev!
