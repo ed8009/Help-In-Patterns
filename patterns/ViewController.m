@@ -56,6 +56,15 @@
 
 #import "NSDate+StringDate.h"
 
+#import "BasicHandler.h"
+#import "ElectronicsHandler.h"
+#import "OtherItemsHandler.h"
+#import "Electronics.h"
+#import "Trash.h"
+
+#import "AndroidMaker.h"
+#import "iPhoneMaker.h"
+
 @interface ViewController ()
 
 @end
@@ -235,9 +244,26 @@
     [_localWarehouse accept:qualityVisitor];
     */
     
-    // Decorator
+/* Decorator
     NSDate *dateNow = [NSDate date];
     NSLog(@"Date is %@", [dateNow convertDateToString]);
+    */
+    
+/* Chain of responsibility
+    BasicHandler *electronicsHandler = [[ElectronicsHandler alloc] init];
+    BasicHandler *otherItemHandler = [[OtherItemsHandler alloc]init];
+    electronicsHandler.nextHandler = otherItemHandler;
+    BasicItem *electronic = [[Electronics alloc] init];
+    BasicItem *trash = [[Trash alloc] init];
+    [electronicsHandler handleItem:electronic];
+    [electronicsHandler handleItem:trash];
+    */
+    
+    // Template Method
+    AndroidMaker *android = [[AndroidMaker alloc] init];
+    iPhoneMaker *iphone = [[iPhoneMaker alloc] init];
+    [android makePhone];
+    [iphone makePhone];
 }
 
 - (void)saveExpenses:(int)aPrice

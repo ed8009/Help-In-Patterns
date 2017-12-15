@@ -66,6 +66,15 @@
 		807AB79D1FE3D28F00B7DDC1 /* QualityCheckerVisitor.m in Sources */ = {isa = PBXBuildFile; fileRef = 807AB79C1FE3D28F00B7DDC1 /* QualityCheckerVisitor.m */; };
 		807AB7A01FE3D2BB00B7DDC1 /* PriceCheckerVisitor.m in Sources */ = {isa = PBXBuildFile; fileRef = 807AB79F1FE3D2BB00B7DDC1 /* PriceCheckerVisitor.m */; };
 		807AB7A41FE3D51600B7DDC1 /* NSDate+StringDate.m in Sources */ = {isa = PBXBuildFile; fileRef = 807AB7A31FE3D51600B7DDC1 /* NSDate+StringDate.m */; };
+		807AB7A81FE3D75E00B7DDC1 /* BasicItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 807AB7A71FE3D75E00B7DDC1 /* BasicItem.m */; };
+		807AB7AE1FE3D77500B7DDC1 /* Electronics.m in Sources */ = {isa = PBXBuildFile; fileRef = 807AB7AD1FE3D77500B7DDC1 /* Electronics.m */; };
+		807AB7B11FE3D79600B7DDC1 /* Trash.m in Sources */ = {isa = PBXBuildFile; fileRef = 807AB7B01FE3D79600B7DDC1 /* Trash.m */; };
+		807AB7B41FE3D7CF00B7DDC1 /* BasicHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 807AB7B31FE3D7CF00B7DDC1 /* BasicHandler.m */; };
+		807AB7BA1FE3D83E00B7DDC1 /* ElectronicsHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 807AB7B91FE3D83E00B7DDC1 /* ElectronicsHandler.m */; };
+		807AB7BD1FE3D84800B7DDC1 /* OtherItemsHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 807AB7BC1FE3D84800B7DDC1 /* OtherItemsHandler.m */; };
+		807AB7C11FE3DAC100B7DDC1 /* AnyPhoneTemplate.m in Sources */ = {isa = PBXBuildFile; fileRef = 807AB7C01FE3DAC100B7DDC1 /* AnyPhoneTemplate.m */; };
+		807AB7C41FE3DAEE00B7DDC1 /* iPhoneMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 807AB7C31FE3DAEE00B7DDC1 /* iPhoneMaker.m */; };
+		807AB7C71FE3DB2400B7DDC1 /* AndroidMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 807AB7C61FE3DB2400B7DDC1 /* AndroidMaker.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -191,6 +200,24 @@
 		807AB79F1FE3D2BB00B7DDC1 /* PriceCheckerVisitor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PriceCheckerVisitor.m; sourceTree = "<group>"; };
 		807AB7A21FE3D51600B7DDC1 /* NSDate+StringDate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDate+StringDate.h"; sourceTree = "<group>"; };
 		807AB7A31FE3D51600B7DDC1 /* NSDate+StringDate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDate+StringDate.m"; sourceTree = "<group>"; };
+		807AB7A61FE3D75E00B7DDC1 /* BasicItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BasicItem.h; sourceTree = "<group>"; };
+		807AB7A71FE3D75E00B7DDC1 /* BasicItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BasicItem.m; sourceTree = "<group>"; };
+		807AB7AC1FE3D77500B7DDC1 /* Electronics.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Electronics.h; sourceTree = "<group>"; };
+		807AB7AD1FE3D77500B7DDC1 /* Electronics.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Electronics.m; sourceTree = "<group>"; };
+		807AB7AF1FE3D79600B7DDC1 /* Trash.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Trash.h; sourceTree = "<group>"; };
+		807AB7B01FE3D79600B7DDC1 /* Trash.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Trash.m; sourceTree = "<group>"; };
+		807AB7B21FE3D7CF00B7DDC1 /* BasicHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BasicHandler.h; sourceTree = "<group>"; };
+		807AB7B31FE3D7CF00B7DDC1 /* BasicHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BasicHandler.m; sourceTree = "<group>"; };
+		807AB7B81FE3D83E00B7DDC1 /* ElectronicsHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ElectronicsHandler.h; sourceTree = "<group>"; };
+		807AB7B91FE3D83E00B7DDC1 /* ElectronicsHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ElectronicsHandler.m; sourceTree = "<group>"; };
+		807AB7BB1FE3D84800B7DDC1 /* OtherItemsHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OtherItemsHandler.h; sourceTree = "<group>"; };
+		807AB7BC1FE3D84800B7DDC1 /* OtherItemsHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OtherItemsHandler.m; sourceTree = "<group>"; };
+		807AB7BF1FE3DAC100B7DDC1 /* AnyPhoneTemplate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AnyPhoneTemplate.h; sourceTree = "<group>"; };
+		807AB7C01FE3DAC100B7DDC1 /* AnyPhoneTemplate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnyPhoneTemplate.m; sourceTree = "<group>"; };
+		807AB7C21FE3DAEE00B7DDC1 /* iPhoneMaker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iPhoneMaker.h; sourceTree = "<group>"; };
+		807AB7C31FE3DAEE00B7DDC1 /* iPhoneMaker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iPhoneMaker.m; sourceTree = "<group>"; };
+		807AB7C51FE3DB2400B7DDC1 /* AndroidMaker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AndroidMaker.h; sourceTree = "<group>"; };
+		807AB7C61FE3DB2400B7DDC1 /* AndroidMaker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AndroidMaker.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -223,6 +250,8 @@
 		804408581FDFB9A4004FC53B /* patterns */ = {
 			isa = PBXGroup;
 			children = (
+				807AB7BE1FE3DA6E00B7DDC1 /* Template Method */,
+				807AB7A51FE3D6C700B7DDC1 /* Chain of responsibility */,
 				807AB7A11FE3D48700B7DDC1 /* Decorator */,
 				807AB7931FE3D15200B7DDC1 /* Visitor */,
 				807AB7831FE3CAEA00B7DDC1 /* Iterator */,
@@ -484,6 +513,38 @@
 			path = Decorator;
 			sourceTree = "<group>";
 		};
+		807AB7A51FE3D6C700B7DDC1 /* Chain of responsibility */ = {
+			isa = PBXGroup;
+			children = (
+				807AB7A61FE3D75E00B7DDC1 /* BasicItem.h */,
+				807AB7A71FE3D75E00B7DDC1 /* BasicItem.m */,
+				807AB7AC1FE3D77500B7DDC1 /* Electronics.h */,
+				807AB7AD1FE3D77500B7DDC1 /* Electronics.m */,
+				807AB7AF1FE3D79600B7DDC1 /* Trash.h */,
+				807AB7B01FE3D79600B7DDC1 /* Trash.m */,
+				807AB7B21FE3D7CF00B7DDC1 /* BasicHandler.h */,
+				807AB7B31FE3D7CF00B7DDC1 /* BasicHandler.m */,
+				807AB7B81FE3D83E00B7DDC1 /* ElectronicsHandler.h */,
+				807AB7B91FE3D83E00B7DDC1 /* ElectronicsHandler.m */,
+				807AB7BB1FE3D84800B7DDC1 /* OtherItemsHandler.h */,
+				807AB7BC1FE3D84800B7DDC1 /* OtherItemsHandler.m */,
+			);
+			path = "Chain of responsibility";
+			sourceTree = "<group>";
+		};
+		807AB7BE1FE3DA6E00B7DDC1 /* Template Method */ = {
+			isa = PBXGroup;
+			children = (
+				807AB7BF1FE3DAC100B7DDC1 /* AnyPhoneTemplate.h */,
+				807AB7C01FE3DAC100B7DDC1 /* AnyPhoneTemplate.m */,
+				807AB7C21FE3DAEE00B7DDC1 /* iPhoneMaker.h */,
+				807AB7C31FE3DAEE00B7DDC1 /* iPhoneMaker.m */,
+				807AB7C51FE3DB2400B7DDC1 /* AndroidMaker.h */,
+				807AB7C61FE3DB2400B7DDC1 /* AndroidMaker.m */,
+			);
+			path = "Template Method";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -555,6 +616,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				807AB7AE1FE3D77500B7DDC1 /* Electronics.m in Sources */,
 				807AB6E31FE127A900B7DDC1 /* AndroidPhone.m in Sources */,
 				807AB7021FE1304F00B7DDC1 /* RavenAdapter.m in Sources */,
 				807AB7271FE15B5F00B7DDC1 /* TravellEngine.m in Sources */,
@@ -566,6 +628,8 @@
 				807AB6DF1FE1266D00B7DDC1 /* Person.m in Sources */,
 				807AB7471FE1710200B7DDC1 /* OtherSubscriber.m in Sources */,
 				807AB79D1FE3D28F00B7DDC1 /* QualityCheckerVisitor.m in Sources */,
+				807AB7C11FE3DAC100B7DDC1 /* AnyPhoneTemplate.m in Sources */,
+				807AB7B11FE3D79600B7DDC1 /* Trash.m in Sources */,
 				804408851FDFBC22004FC53B /* GenericIPhone.m in Sources */,
 				807AB7991FE3D25200B7DDC1 /* Warehouse.m in Sources */,
 				807AB7A41FE3D51600B7DDC1 /* NSDate+StringDate.m in Sources */,
@@ -584,20 +648,25 @@
 				807AB7341FE1602600B7DDC1 /* CentrallProcessor.m in Sources */,
 				807AB6EC1FE1295000B7DDC1 /* HighPricePhoneBuilder.m in Sources */,
 				807AB6FF1FE1300300B7DDC1 /* Raven.m in Sources */,
+				807AB7BA1FE3D83E00B7DDC1 /* ElectronicsHandler.m in Sources */,
 				804408941FDFBD2F004FC53B /* AppleFactory.m in Sources */,
 				807AB78C1FE3CCAF00B7DDC1 /* BasicEnumerator.m in Sources */,
 				807AB6EF1FE129BE00B7DDC1 /* FactorySalesMan.m in Sources */,
 				8044087B1FDFBACE004FC53B /* ProductGenerator.m in Sources */,
 				807AB7441FE170D700B7DDC1 /* SomeSubscriber.m in Sources */,
 				807AB78F1FE3CCD600B7DDC1 /* BadItemsEnumerator.m in Sources */,
+				807AB7A81FE3D75E00B7DDC1 /* BasicItem.m in Sources */,
 				804408781FDFBA52004FC53B /* Dress.m in Sources */,
 				807AB7961FE3D23600B7DDC1 /* WarehouseItem.m in Sources */,
 				807AB7091FE132F700B7DDC1 /* Charger.m in Sources */,
 				8044087F1FDFBBEE004FC53B /* IPhoneFactory.m in Sources */,
 				804408691FDFB9A4004FC53B /* main.m in Sources */,
+				807AB7C71FE3DB2400B7DDC1 /* AndroidMaker.m in Sources */,
 				807AB7861FE3CC0D00B7DDC1 /* ItemInShop.m in Sources */,
 				807AB7201FE140A200B7DDC1 /* MusicPlayer.m in Sources */,
+				807AB7BD1FE3D84800B7DDC1 /* OtherItemsHandler.m in Sources */,
 				807AB74E1FE1732400B7DDC1 /* KVOObserver.m in Sources */,
+				807AB7B41FE3D7CF00B7DDC1 /* BasicHandler.m in Sources */,
 				807AB7531FE2987E00B7DDC1 /* LeafObject.m in Sources */,
 				807AB7921FE3CD0C00B7DDC1 /* GoodItemsEnumerator.m in Sources */,
 				804408881FDFBC68004FC53B /* AppleIPhone.m in Sources */,
@@ -607,6 +676,7 @@
 				807AB70D1FE134BE00B7DDC1 /* EuropeanNotebookCharger.m in Sources */,
 				804408911FDFBCC1004FC53B /* ChinaPhone.m in Sources */,
 				807AB74B1FE1731300B7DDC1 /* KVOSubject.m in Sources */,
+				807AB7C41FE3DAEE00B7DDC1 /* iPhoneMaker.m in Sources */,
 				807AB7131FE1367B00B7DDC1 /* USANotebookEuropeanAdapter.m in Sources */,
 				807AB7101FE1363700B7DDC1 /* USANotebookCharger.m in Sources */,
 				807AB6E91FE128D700B7DDC1 /* LowPricePhoneBuilder.m in Sources */,

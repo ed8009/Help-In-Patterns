@@ -15,6 +15,8 @@ You can see the following patterns:
 - Iterator
 - Visitor
 - Decorator
+- Chain of responsibility
+- Template Method
 
 I will be glad to see all your comments. 
 Examples are taken and collected from the wonderful book by Dima Maleev!
