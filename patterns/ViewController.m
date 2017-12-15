@@ -301,7 +301,7 @@
     [commandE undoAll];
     */
     
-    /* Flyweight
+/* Flyweight
     NSMutableArray *units = [[NSMutableArray alloc] init]; for ( int i = 0 ; i < 500; i++)
     {
         [units addObject:[[Dragon alloc] init]];
@@ -320,7 +320,7 @@
     [proxy fastDownload];
     */
     
-    // Memento
+// Memento
     Caretaker *crtaker = [[Caretaker alloc] init];
     [crtaker changeValue];
     [crtaker saveState];
