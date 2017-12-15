@@ -17,6 +17,11 @@ You can see the following patterns:
 - Decorator
 - Chain of responsibility
 - Template Method
+- Strategy
+- Command
+- Flyweight
+- Proxy
+- Memento
 
 I will be glad to see all your comments. 
 Examples are taken and collected from the wonderful book by Dima Maleev!

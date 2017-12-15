@@ -65,6 +65,21 @@
 #import "AndroidMaker.h"
 #import "iPhoneMaker.h"
 
+#import "Player.h"
+#import "AttackStrategy.h"
+#import "DefenceStrategy.h"
+
+#import "CommandExecutor.h"
+#import "FirstCommand.h"
+#import "SecondCommand.h"
+
+#import "Dragon.h"
+#import "Goblin.h"
+
+#import "FileDownloaderProxy.h"
+
+#import "Caretaker.h"
+
 @interface ViewController ()
 
 @end
@@ -259,11 +274,60 @@
     [electronicsHandler handleItem:trash];
     */
     
-    // Template Method
+/* Template Method
     AndroidMaker *android = [[AndroidMaker alloc] init];
     iPhoneMaker *iphone = [[iPhoneMaker alloc] init];
     [android makePhone];
     [iphone makePhone];
+    */
+    
+/* Strategy
+    Player *p = [[Player alloc] init];
+    AttackStrategy *a = [[AttackStrategy alloc] init];
+    DefenceStrategy *d = [[DefenceStrategy alloc] init];
+    [p changeStrategy:a];
+    [p makeAction];
+    [p changeStrategy:d];
+    [p makeAction];
+    */
+    
+/* Command
+    CommandExecutor *commandE = [[CommandExecutor alloc] init];
+    BaseCommand *cmdF = [[FirstCommand alloc] initWithArguments:@"This is a test string"];
+    BaseCommand *cmdS = [[SecondCommand alloc] initWithArgs:3];
+    [commandE addCommand:cmdF];
+    [commandE addCommand:cmdS];
+    [commandE executeCommands];
+    [commandE undoAll];
+    */
+    
+    /* Flyweight
+    NSMutableArray *units = [[NSMutableArray alloc] init]; for ( int i = 0 ; i < 500; i++)
+    {
+        [units addObject:[[Dragon alloc] init]];
+    }
+    for ( int i = 0 ; i < 500; i++)
+    {
+        [units addObject:[[Goblin alloc] init]];
+    }
+    */
+    
+/* Proxy
+    FileDownloaderProxy *proxy = [[FileDownloaderProxy alloc] init];
+    [proxy setIsPremiumUser:NO];
+    [proxy fastDownload];
+    [proxy setIsPremiumUser:YES];
+    [proxy fastDownload];
+    */
+    
+    // Memento
+    Caretaker *crtaker = [[Caretaker alloc] init];
+    [crtaker changeValue];
+    [crtaker saveState];
+    [crtaker changeValue];
+    [crtaker changeValue];
+    [crtaker changeValue];
+    [crtaker loadState];
 }
 
 - (void)saveExpenses:(int)aPrice

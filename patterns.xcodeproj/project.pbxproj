@@ -75,6 +75,25 @@
 		807AB7C11FE3DAC100B7DDC1 /* AnyPhoneTemplate.m in Sources */ = {isa = PBXBuildFile; fileRef = 807AB7C01FE3DAC100B7DDC1 /* AnyPhoneTemplate.m */; };
 		807AB7C41FE3DAEE00B7DDC1 /* iPhoneMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 807AB7C31FE3DAEE00B7DDC1 /* iPhoneMaker.m */; };
 		807AB7C71FE3DB2400B7DDC1 /* AndroidMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 807AB7C61FE3DB2400B7DDC1 /* AndroidMaker.m */; };
+		807AB7CB1FE3F68300B7DDC1 /* BasicStrategy.m in Sources */ = {isa = PBXBuildFile; fileRef = 807AB7CA1FE3F68300B7DDC1 /* BasicStrategy.m */; };
+		807AB7CE1FE3F69A00B7DDC1 /* AttackStrategy.m in Sources */ = {isa = PBXBuildFile; fileRef = 807AB7CD1FE3F69A00B7DDC1 /* AttackStrategy.m */; };
+		807AB7D11FE3F6CC00B7DDC1 /* DefenceStrategy.m in Sources */ = {isa = PBXBuildFile; fileRef = 807AB7D01FE3F6CC00B7DDC1 /* DefenceStrategy.m */; };
+		807AB7D41FE3F79700B7DDC1 /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = 807AB7D31FE3F79700B7DDC1 /* Player.m */; };
+		807AB7D81FE3FC2000B7DDC1 /* BaseCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 807AB7D71FE3FC2000B7DDC1 /* BaseCommand.m */; };
+		807AB7DB1FE3FC4700B7DDC1 /* FirstCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 807AB7DA1FE3FC4700B7DDC1 /* FirstCommand.m */; };
+		807AB7DE1FE3FC7300B7DDC1 /* SecondCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 807AB7DD1FE3FC7300B7DDC1 /* SecondCommand.m */; };
+		807AB7E11FE3FC9C00B7DDC1 /* CommandExecutor.m in Sources */ = {isa = PBXBuildFile; fileRef = 807AB7E01FE3FC9C00B7DDC1 /* CommandExecutor.m */; };
+		807AB7E61FE3FFBB00B7DDC1 /* BasicUnit.m in Sources */ = {isa = PBXBuildFile; fileRef = 807AB7E51FE3FFBB00B7DDC1 /* BasicUnit.m */; };
+		807AB7E91FE3FFE500B7DDC1 /* FlyweightImageFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 807AB7E81FE3FFE500B7DDC1 /* FlyweightImageFactory.m */; };
+		807AB7EC1FE400CC00B7DDC1 /* Dragon.m in Sources */ = {isa = PBXBuildFile; fileRef = 807AB7EB1FE400CC00B7DDC1 /* Dragon.m */; };
+		807AB7EF1FE4010400B7DDC1 /* Goblin.m in Sources */ = {isa = PBXBuildFile; fileRef = 807AB7EE1FE4010400B7DDC1 /* Goblin.m */; };
+		807AB7F11FE402F000B7DDC1 /* goblin.png in Resources */ = {isa = PBXBuildFile; fileRef = 807AB7F01FE402EF00B7DDC1 /* goblin.png */; };
+		807AB7F51FE403EE00B7DDC1 /* FileDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 807AB7F41FE403EE00B7DDC1 /* FileDownloader.m */; };
+		807AB7F81FE4041300B7DDC1 /* FileDownloaderProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 807AB7F71FE4041300B7DDC1 /* FileDownloaderProxy.m */; };
+		807AB7FC1FE4055D00B7DDC1 /* OriginatorState.m in Sources */ = {isa = PBXBuildFile; fileRef = 807AB7FB1FE4055D00B7DDC1 /* OriginatorState.m */; };
+		807AB7FF1FE4057500B7DDC1 /* Originator.m in Sources */ = {isa = PBXBuildFile; fileRef = 807AB7FE1FE4057500B7DDC1 /* Originator.m */; };
+		807AB8021FE405E800B7DDC1 /* Memento.m in Sources */ = {isa = PBXBuildFile; fileRef = 807AB8011FE405E800B7DDC1 /* Memento.m */; };
+		807AB8051FE4061600B7DDC1 /* Caretaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 807AB8041FE4061600B7DDC1 /* Caretaker.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -218,6 +237,43 @@
 		807AB7C31FE3DAEE00B7DDC1 /* iPhoneMaker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iPhoneMaker.m; sourceTree = "<group>"; };
 		807AB7C51FE3DB2400B7DDC1 /* AndroidMaker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AndroidMaker.h; sourceTree = "<group>"; };
 		807AB7C61FE3DB2400B7DDC1 /* AndroidMaker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AndroidMaker.m; sourceTree = "<group>"; };
+		807AB7C91FE3F68300B7DDC1 /* BasicStrategy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BasicStrategy.h; sourceTree = "<group>"; };
+		807AB7CA1FE3F68300B7DDC1 /* BasicStrategy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BasicStrategy.m; sourceTree = "<group>"; };
+		807AB7CC1FE3F69A00B7DDC1 /* AttackStrategy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AttackStrategy.h; sourceTree = "<group>"; };
+		807AB7CD1FE3F69A00B7DDC1 /* AttackStrategy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AttackStrategy.m; sourceTree = "<group>"; };
+		807AB7CF1FE3F6CC00B7DDC1 /* DefenceStrategy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DefenceStrategy.h; sourceTree = "<group>"; };
+		807AB7D01FE3F6CC00B7DDC1 /* DefenceStrategy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DefenceStrategy.m; sourceTree = "<group>"; };
+		807AB7D21FE3F79700B7DDC1 /* Player.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
+		807AB7D31FE3F79700B7DDC1 /* Player.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Player.m; sourceTree = "<group>"; };
+		807AB7D61FE3FC2000B7DDC1 /* BaseCommand.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseCommand.h; sourceTree = "<group>"; };
+		807AB7D71FE3FC2000B7DDC1 /* BaseCommand.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseCommand.m; sourceTree = "<group>"; };
+		807AB7D91FE3FC4700B7DDC1 /* FirstCommand.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstCommand.h; sourceTree = "<group>"; };
+		807AB7DA1FE3FC4700B7DDC1 /* FirstCommand.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstCommand.m; sourceTree = "<group>"; };
+		807AB7DC1FE3FC7300B7DDC1 /* SecondCommand.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondCommand.h; sourceTree = "<group>"; };
+		807AB7DD1FE3FC7300B7DDC1 /* SecondCommand.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondCommand.m; sourceTree = "<group>"; };
+		807AB7DF1FE3FC9C00B7DDC1 /* CommandExecutor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommandExecutor.h; sourceTree = "<group>"; };
+		807AB7E01FE3FC9C00B7DDC1 /* CommandExecutor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CommandExecutor.m; sourceTree = "<group>"; };
+		807AB7E41FE3FFBB00B7DDC1 /* BasicUnit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BasicUnit.h; sourceTree = "<group>"; };
+		807AB7E51FE3FFBB00B7DDC1 /* BasicUnit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BasicUnit.m; sourceTree = "<group>"; };
+		807AB7E71FE3FFE500B7DDC1 /* FlyweightImageFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlyweightImageFactory.h; sourceTree = "<group>"; };
+		807AB7E81FE3FFE500B7DDC1 /* FlyweightImageFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlyweightImageFactory.m; sourceTree = "<group>"; };
+		807AB7EA1FE400CC00B7DDC1 /* Dragon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Dragon.h; sourceTree = "<group>"; };
+		807AB7EB1FE400CC00B7DDC1 /* Dragon.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Dragon.m; sourceTree = "<group>"; };
+		807AB7ED1FE4010400B7DDC1 /* Goblin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Goblin.h; sourceTree = "<group>"; };
+		807AB7EE1FE4010400B7DDC1 /* Goblin.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Goblin.m; sourceTree = "<group>"; };
+		807AB7F01FE402EF00B7DDC1 /* goblin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = goblin.png; sourceTree = "<group>"; };
+		807AB7F31FE403EE00B7DDC1 /* FileDownloader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FileDownloader.h; sourceTree = "<group>"; };
+		807AB7F41FE403EE00B7DDC1 /* FileDownloader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FileDownloader.m; sourceTree = "<group>"; };
+		807AB7F61FE4041300B7DDC1 /* FileDownloaderProxy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FileDownloaderProxy.h; sourceTree = "<group>"; };
+		807AB7F71FE4041300B7DDC1 /* FileDownloaderProxy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FileDownloaderProxy.m; sourceTree = "<group>"; };
+		807AB7FA1FE4055D00B7DDC1 /* OriginatorState.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OriginatorState.h; sourceTree = "<group>"; };
+		807AB7FB1FE4055D00B7DDC1 /* OriginatorState.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OriginatorState.m; sourceTree = "<group>"; };
+		807AB7FD1FE4057500B7DDC1 /* Originator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Originator.h; sourceTree = "<group>"; };
+		807AB7FE1FE4057500B7DDC1 /* Originator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Originator.m; sourceTree = "<group>"; };
+		807AB8001FE405E800B7DDC1 /* Memento.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Memento.h; sourceTree = "<group>"; };
+		807AB8011FE405E800B7DDC1 /* Memento.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Memento.m; sourceTree = "<group>"; };
+		807AB8031FE4061600B7DDC1 /* Caretaker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Caretaker.h; sourceTree = "<group>"; };
+		807AB8041FE4061600B7DDC1 /* Caretaker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Caretaker.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -250,6 +306,11 @@
 		804408581FDFB9A4004FC53B /* patterns */ = {
 			isa = PBXGroup;
 			children = (
+				807AB7F91FE404F300B7DDC1 /* Memento */,
+				807AB7F21FE4035900B7DDC1 /* Proxy */,
+				807AB7E21FE3FF2A00B7DDC1 /* Flyweight */,
+				807AB7D51FE3F9CF00B7DDC1 /* Command */,
+				807AB7C81FE3DCB800B7DDC1 /* Strategy */,
 				807AB7BE1FE3DA6E00B7DDC1 /* Template Method */,
 				807AB7A51FE3D6C700B7DDC1 /* Chain of responsibility */,
 				807AB7A11FE3D48700B7DDC1 /* Decorator */,
@@ -545,6 +606,78 @@
 			path = "Template Method";
 			sourceTree = "<group>";
 		};
+		807AB7C81FE3DCB800B7DDC1 /* Strategy */ = {
+			isa = PBXGroup;
+			children = (
+				807AB7C91FE3F68300B7DDC1 /* BasicStrategy.h */,
+				807AB7CA1FE3F68300B7DDC1 /* BasicStrategy.m */,
+				807AB7CC1FE3F69A00B7DDC1 /* AttackStrategy.h */,
+				807AB7CD1FE3F69A00B7DDC1 /* AttackStrategy.m */,
+				807AB7CF1FE3F6CC00B7DDC1 /* DefenceStrategy.h */,
+				807AB7D01FE3F6CC00B7DDC1 /* DefenceStrategy.m */,
+				807AB7D21FE3F79700B7DDC1 /* Player.h */,
+				807AB7D31FE3F79700B7DDC1 /* Player.m */,
+			);
+			path = Strategy;
+			sourceTree = "<group>";
+		};
+		807AB7D51FE3F9CF00B7DDC1 /* Command */ = {
+			isa = PBXGroup;
+			children = (
+				807AB7D61FE3FC2000B7DDC1 /* BaseCommand.h */,
+				807AB7D71FE3FC2000B7DDC1 /* BaseCommand.m */,
+				807AB7D91FE3FC4700B7DDC1 /* FirstCommand.h */,
+				807AB7DA1FE3FC4700B7DDC1 /* FirstCommand.m */,
+				807AB7DC1FE3FC7300B7DDC1 /* SecondCommand.h */,
+				807AB7DD1FE3FC7300B7DDC1 /* SecondCommand.m */,
+				807AB7DF1FE3FC9C00B7DDC1 /* CommandExecutor.h */,
+				807AB7E01FE3FC9C00B7DDC1 /* CommandExecutor.m */,
+			);
+			path = Command;
+			sourceTree = "<group>";
+		};
+		807AB7E21FE3FF2A00B7DDC1 /* Flyweight */ = {
+			isa = PBXGroup;
+			children = (
+				807AB7F01FE402EF00B7DDC1 /* goblin.png */,
+				807AB7E41FE3FFBB00B7DDC1 /* BasicUnit.h */,
+				807AB7E51FE3FFBB00B7DDC1 /* BasicUnit.m */,
+				807AB7E71FE3FFE500B7DDC1 /* FlyweightImageFactory.h */,
+				807AB7E81FE3FFE500B7DDC1 /* FlyweightImageFactory.m */,
+				807AB7EA1FE400CC00B7DDC1 /* Dragon.h */,
+				807AB7EB1FE400CC00B7DDC1 /* Dragon.m */,
+				807AB7ED1FE4010400B7DDC1 /* Goblin.h */,
+				807AB7EE1FE4010400B7DDC1 /* Goblin.m */,
+			);
+			path = Flyweight;
+			sourceTree = "<group>";
+		};
+		807AB7F21FE4035900B7DDC1 /* Proxy */ = {
+			isa = PBXGroup;
+			children = (
+				807AB7F31FE403EE00B7DDC1 /* FileDownloader.h */,
+				807AB7F41FE403EE00B7DDC1 /* FileDownloader.m */,
+				807AB7F61FE4041300B7DDC1 /* FileDownloaderProxy.h */,
+				807AB7F71FE4041300B7DDC1 /* FileDownloaderProxy.m */,
+			);
+			path = Proxy;
+			sourceTree = "<group>";
+		};
+		807AB7F91FE404F300B7DDC1 /* Memento */ = {
+			isa = PBXGroup;
+			children = (
+				807AB7FA1FE4055D00B7DDC1 /* OriginatorState.h */,
+				807AB7FB1FE4055D00B7DDC1 /* OriginatorState.m */,
+				807AB7FD1FE4057500B7DDC1 /* Originator.h */,
+				807AB7FE1FE4057500B7DDC1 /* Originator.m */,
+				807AB8001FE405E800B7DDC1 /* Memento.h */,
+				807AB8011FE405E800B7DDC1 /* Memento.m */,
+				807AB8031FE4061600B7DDC1 /* Caretaker.h */,
+				807AB8041FE4061600B7DDC1 /* Caretaker.m */,
+			);
+			path = Memento;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -605,6 +738,7 @@
 			files = (
 				804408661FDFB9A4004FC53B /* LaunchScreen.storyboard in Resources */,
 				804408631FDFB9A4004FC53B /* Assets.xcassets in Resources */,
+				807AB7F11FE402F000B7DDC1 /* goblin.png in Resources */,
 				804408611FDFB9A4004FC53B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -618,6 +752,7 @@
 			files = (
 				807AB7AE1FE3D77500B7DDC1 /* Electronics.m in Sources */,
 				807AB6E31FE127A900B7DDC1 /* AndroidPhone.m in Sources */,
+				807AB7EC1FE400CC00B7DDC1 /* Dragon.m in Sources */,
 				807AB7021FE1304F00B7DDC1 /* RavenAdapter.m in Sources */,
 				807AB7271FE15B5F00B7DDC1 /* TravellEngine.m in Sources */,
 				8044085E1FDFB9A4004FC53B /* ViewController.m in Sources */,
@@ -629,10 +764,13 @@
 				807AB7471FE1710200B7DDC1 /* OtherSubscriber.m in Sources */,
 				807AB79D1FE3D28F00B7DDC1 /* QualityCheckerVisitor.m in Sources */,
 				807AB7C11FE3DAC100B7DDC1 /* AnyPhoneTemplate.m in Sources */,
+				807AB7FF1FE4057500B7DDC1 /* Originator.m in Sources */,
 				807AB7B11FE3D79600B7DDC1 /* Trash.m in Sources */,
+				807AB7D81FE3FC2000B7DDC1 /* BaseCommand.m in Sources */,
 				804408851FDFBC22004FC53B /* GenericIPhone.m in Sources */,
 				807AB7991FE3D25200B7DDC1 /* Warehouse.m in Sources */,
 				807AB7A41FE3D51600B7DDC1 /* NSDate+StringDate.m in Sources */,
+				807AB7E11FE3FC9C00B7DDC1 /* CommandExecutor.m in Sources */,
 				807AB7411FE1702200B7DDC1 /* StandardSubjectImplementation.m in Sources */,
 				807AB71D1FE1400200B7DDC1 /* ExpensiveHeadphones.m in Sources */,
 				807AB7A01FE3D2BB00B7DDC1 /* PriceCheckerVisitor.m in Sources */,
@@ -640,17 +778,25 @@
 				807AB7561FE298F600B7DDC1 /* Container.m in Sources */,
 				804408721FDFB9F8004FC53B /* Product.m in Sources */,
 				807AB6F31FE12C1000B7DDC1 /* SingletonObject.m in Sources */,
+				807AB7FC1FE4055D00B7DDC1 /* OriginatorState.m in Sources */,
 				807AB6E61FE1287400B7DDC1 /* BPAndroidPhoneBuilder.m in Sources */,
 				804408971FDFBD74004FC53B /* ChinaFactory.m in Sources */,
 				807AB7371FE160E400B7DDC1 /* Thermometer.m in Sources */,
+				807AB7F51FE403EE00B7DDC1 /* FileDownloader.m in Sources */,
 				807AB72A1FE15BDE00B7DDC1 /* TicketPrinitingSystem.m in Sources */,
 				807AB7241FE15AE500B7DDC1 /* PathFinder.m in Sources */,
+				807AB8051FE4061600B7DDC1 /* Caretaker.m in Sources */,
 				807AB7341FE1602600B7DDC1 /* CentrallProcessor.m in Sources */,
+				807AB7E91FE3FFE500B7DDC1 /* FlyweightImageFactory.m in Sources */,
+				807AB7CE1FE3F69A00B7DDC1 /* AttackStrategy.m in Sources */,
+				807AB7DB1FE3FC4700B7DDC1 /* FirstCommand.m in Sources */,
 				807AB6EC1FE1295000B7DDC1 /* HighPricePhoneBuilder.m in Sources */,
 				807AB6FF1FE1300300B7DDC1 /* Raven.m in Sources */,
 				807AB7BA1FE3D83E00B7DDC1 /* ElectronicsHandler.m in Sources */,
+				807AB7D41FE3F79700B7DDC1 /* Player.m in Sources */,
 				804408941FDFBD2F004FC53B /* AppleFactory.m in Sources */,
 				807AB78C1FE3CCAF00B7DDC1 /* BasicEnumerator.m in Sources */,
+				807AB7E61FE3FFBB00B7DDC1 /* BasicUnit.m in Sources */,
 				807AB6EF1FE129BE00B7DDC1 /* FactorySalesMan.m in Sources */,
 				8044087B1FDFBACE004FC53B /* ProductGenerator.m in Sources */,
 				807AB7441FE170D700B7DDC1 /* SomeSubscriber.m in Sources */,
@@ -660,14 +806,17 @@
 				807AB7961FE3D23600B7DDC1 /* WarehouseItem.m in Sources */,
 				807AB7091FE132F700B7DDC1 /* Charger.m in Sources */,
 				8044087F1FDFBBEE004FC53B /* IPhoneFactory.m in Sources */,
+				807AB7D11FE3F6CC00B7DDC1 /* DefenceStrategy.m in Sources */,
 				804408691FDFB9A4004FC53B /* main.m in Sources */,
 				807AB7C71FE3DB2400B7DDC1 /* AndroidMaker.m in Sources */,
 				807AB7861FE3CC0D00B7DDC1 /* ItemInShop.m in Sources */,
 				807AB7201FE140A200B7DDC1 /* MusicPlayer.m in Sources */,
+				807AB7DE1FE3FC7300B7DDC1 /* SecondCommand.m in Sources */,
 				807AB7BD1FE3D84800B7DDC1 /* OtherItemsHandler.m in Sources */,
 				807AB74E1FE1732400B7DDC1 /* KVOObserver.m in Sources */,
 				807AB7B41FE3D7CF00B7DDC1 /* BasicHandler.m in Sources */,
 				807AB7531FE2987E00B7DDC1 /* LeafObject.m in Sources */,
+				807AB7EF1FE4010400B7DDC1 /* Goblin.m in Sources */,
 				807AB7921FE3CD0C00B7DDC1 /* GoodItemsEnumerator.m in Sources */,
 				804408881FDFBC68004FC53B /* AppleIPhone.m in Sources */,
 				807AB6FC1FE12F9C00B7DDC1 /* Bird.m in Sources */,
@@ -677,8 +826,11 @@
 				804408911FDFBCC1004FC53B /* ChinaPhone.m in Sources */,
 				807AB74B1FE1731300B7DDC1 /* KVOSubject.m in Sources */,
 				807AB7C41FE3DAEE00B7DDC1 /* iPhoneMaker.m in Sources */,
+				807AB8021FE405E800B7DDC1 /* Memento.m in Sources */,
 				807AB7131FE1367B00B7DDC1 /* USANotebookEuropeanAdapter.m in Sources */,
+				807AB7F81FE4041300B7DDC1 /* FileDownloaderProxy.m in Sources */,
 				807AB7101FE1363700B7DDC1 /* USANotebookCharger.m in Sources */,
+				807AB7CB1FE3F68300B7DDC1 /* BasicStrategy.m in Sources */,
 				807AB6E91FE128D700B7DDC1 /* LowPricePhoneBuilder.m in Sources */,
 				8044085B1FDFB9A4004FC53B /* AppDelegate.m in Sources */,
 			);
