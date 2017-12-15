@@ -46,6 +46,16 @@
 #import "Container.h"
 #import "LeafObject.h"
 
+#import "ShopWarehouse.h"
+#import "BadItemsEnumerator.h"
+#import "GoodItemsEnumerator.h"
+
+#import "PriceCheckerVisitor.h"
+#import "QualityCheckerVisitor.h"
+#import "Warehouse.h"
+
+#import "NSDate+StringDate.h"
+
 @interface ViewController ()
 
 @end
@@ -185,6 +195,49 @@
     
     NSLog(@"%@", rootContainer.getData);
     */
+    
+/* Iterator
+    ShopWarehouse *shopWarehouse = [[ShopWarehouse alloc] init];
+    [shopWarehouse addItem:[[ItemInShop alloc]initWithArgs:@"Item1" andQaulity:NO]];
+    [shopWarehouse addItem:[[ItemInShop alloc]initWithArgs:@"Item2" andQaulity:NO]];
+    [shopWarehouse addItem:[[ItemInShop alloc]initWithArgs:@"Item3" andQaulity:YES]];
+    [shopWarehouse addItem:[[ItemInShop alloc]initWithArgs:@"Item4" andQaulity:YES]];
+    [shopWarehouse addItem:[[ItemInShop alloc]initWithArgs:@"Item5" andQaulity:NO]];
+    
+    GoodItemsEnumerator *goodIterator = (GoodItemsEnumerator *)[shopWarehouse getGoodItemsEnumerator];
+    BadItemsEnumerator *badIterator = (BadItemsEnumerator *)[shopWarehouse getBrokenItemsEnumerator];
+    ItemInShop *element;
+    while (element = [goodIterator nextObject])
+    {
+        NSLog(@"Good Item = %@", element.name);
+    }
+    while (element = [badIterator nextObject])
+    {
+        NSLog(@"Bad Item = %@", element.name);
+    }
+    */
+    
+/* Visitor
+    Warehouse *_localWarehouse = [[Warehouse alloc] init];
+    [_localWarehouse addItem:[[WarehouseItem alloc] initWithArgs:@"Item1" andQuality:NO andPrice:25]];
+    [_localWarehouse addItem:[[WarehouseItem alloc] initWithArgs:@"Item2" andQuality:NO andPrice:32]];
+    [_localWarehouse addItem:[[WarehouseItem alloc] initWithArgs:@"Item3" andQuality:YES andPrice:45]];
+    [_localWarehouse addItem:[[WarehouseItem alloc] initWithArgs:@"Item4" andQuality:NO andPrice:33]];
+    [_localWarehouse addItem:[[WarehouseItem alloc] initWithArgs:@"Item5" andQuality:NO andPrice:12]];
+    [_localWarehouse addItem:[[WarehouseItem alloc] initWithArgs:@"Item6" andQuality:YES andPrice:78]];
+    [_localWarehouse addItem:[[WarehouseItem alloc] initWithArgs:@"Item7" andQuality:YES andPrice:34]];
+    [_localWarehouse addItem:[[WarehouseItem alloc] initWithArgs:@"Item8" andQuality:NO andPrice:51]];
+    [_localWarehouse addItem:[[WarehouseItem alloc] initWithArgs:@"Item9" andQuality:NO andPrice:25]];
+    
+    PriceCheckerVisitor *visitor = [[PriceCheckerVisitor alloc] init];
+    QualityCheckerVisitor *qualityVisitor = [[QualityCheckerVisitor alloc] init];
+    [_localWarehouse accept:visitor];
+    [_localWarehouse accept:qualityVisitor];
+    */
+    
+    // Decorator
+    NSDate *dateNow = [NSDate date];
+    NSLog(@"Date is %@", [dateNow convertDateToString]);
 }
 
 - (void)saveExpenses:(int)aPrice

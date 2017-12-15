@@ -56,6 +56,16 @@
 		807AB74E1FE1732400B7DDC1 /* KVOObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = 807AB74D1FE1732400B7DDC1 /* KVOObserver.m */; };
 		807AB7531FE2987E00B7DDC1 /* LeafObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 807AB7521FE2987E00B7DDC1 /* LeafObject.m */; };
 		807AB7561FE298F600B7DDC1 /* Container.m in Sources */ = {isa = PBXBuildFile; fileRef = 807AB7551FE298F600B7DDC1 /* Container.m */; };
+		807AB7861FE3CC0D00B7DDC1 /* ItemInShop.m in Sources */ = {isa = PBXBuildFile; fileRef = 807AB7851FE3CC0D00B7DDC1 /* ItemInShop.m */; };
+		807AB7891FE3CC6E00B7DDC1 /* ShopWarehouse.m in Sources */ = {isa = PBXBuildFile; fileRef = 807AB7881FE3CC6E00B7DDC1 /* ShopWarehouse.m */; };
+		807AB78C1FE3CCAF00B7DDC1 /* BasicEnumerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 807AB78B1FE3CCAF00B7DDC1 /* BasicEnumerator.m */; };
+		807AB78F1FE3CCD600B7DDC1 /* BadItemsEnumerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 807AB78E1FE3CCD600B7DDC1 /* BadItemsEnumerator.m */; };
+		807AB7921FE3CD0C00B7DDC1 /* GoodItemsEnumerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 807AB7911FE3CD0C00B7DDC1 /* GoodItemsEnumerator.m */; };
+		807AB7961FE3D23600B7DDC1 /* WarehouseItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 807AB7951FE3D23600B7DDC1 /* WarehouseItem.m */; };
+		807AB7991FE3D25200B7DDC1 /* Warehouse.m in Sources */ = {isa = PBXBuildFile; fileRef = 807AB7981FE3D25200B7DDC1 /* Warehouse.m */; };
+		807AB79D1FE3D28F00B7DDC1 /* QualityCheckerVisitor.m in Sources */ = {isa = PBXBuildFile; fileRef = 807AB79C1FE3D28F00B7DDC1 /* QualityCheckerVisitor.m */; };
+		807AB7A01FE3D2BB00B7DDC1 /* PriceCheckerVisitor.m in Sources */ = {isa = PBXBuildFile; fileRef = 807AB79F1FE3D2BB00B7DDC1 /* PriceCheckerVisitor.m */; };
+		807AB7A41FE3D51600B7DDC1 /* NSDate+StringDate.m in Sources */ = {isa = PBXBuildFile; fileRef = 807AB7A31FE3D51600B7DDC1 /* NSDate+StringDate.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -160,6 +170,27 @@
 		807AB7521FE2987E00B7DDC1 /* LeafObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LeafObject.m; sourceTree = "<group>"; };
 		807AB7541FE298F600B7DDC1 /* Container.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Container.h; sourceTree = "<group>"; };
 		807AB7551FE298F600B7DDC1 /* Container.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Container.m; sourceTree = "<group>"; };
+		807AB7841FE3CC0D00B7DDC1 /* ItemInShop.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ItemInShop.h; sourceTree = "<group>"; };
+		807AB7851FE3CC0D00B7DDC1 /* ItemInShop.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ItemInShop.m; sourceTree = "<group>"; };
+		807AB7871FE3CC6E00B7DDC1 /* ShopWarehouse.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShopWarehouse.h; sourceTree = "<group>"; };
+		807AB7881FE3CC6E00B7DDC1 /* ShopWarehouse.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShopWarehouse.m; sourceTree = "<group>"; };
+		807AB78A1FE3CCAF00B7DDC1 /* BasicEnumerator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BasicEnumerator.h; sourceTree = "<group>"; };
+		807AB78B1FE3CCAF00B7DDC1 /* BasicEnumerator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BasicEnumerator.m; sourceTree = "<group>"; };
+		807AB78D1FE3CCD600B7DDC1 /* BadItemsEnumerator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BadItemsEnumerator.h; sourceTree = "<group>"; };
+		807AB78E1FE3CCD600B7DDC1 /* BadItemsEnumerator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BadItemsEnumerator.m; sourceTree = "<group>"; };
+		807AB7901FE3CD0C00B7DDC1 /* GoodItemsEnumerator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GoodItemsEnumerator.h; sourceTree = "<group>"; };
+		807AB7911FE3CD0C00B7DDC1 /* GoodItemsEnumerator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GoodItemsEnumerator.m; sourceTree = "<group>"; };
+		807AB7941FE3D23600B7DDC1 /* WarehouseItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WarehouseItem.h; sourceTree = "<group>"; };
+		807AB7951FE3D23600B7DDC1 /* WarehouseItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WarehouseItem.m; sourceTree = "<group>"; };
+		807AB7971FE3D25200B7DDC1 /* Warehouse.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Warehouse.h; sourceTree = "<group>"; };
+		807AB7981FE3D25200B7DDC1 /* Warehouse.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Warehouse.m; sourceTree = "<group>"; };
+		807AB79A1FE3D27A00B7DDC1 /* BasicVisitor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BasicVisitor.h; sourceTree = "<group>"; };
+		807AB79B1FE3D28F00B7DDC1 /* QualityCheckerVisitor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QualityCheckerVisitor.h; sourceTree = "<group>"; };
+		807AB79C1FE3D28F00B7DDC1 /* QualityCheckerVisitor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QualityCheckerVisitor.m; sourceTree = "<group>"; };
+		807AB79E1FE3D2BB00B7DDC1 /* PriceCheckerVisitor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PriceCheckerVisitor.h; sourceTree = "<group>"; };
+		807AB79F1FE3D2BB00B7DDC1 /* PriceCheckerVisitor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PriceCheckerVisitor.m; sourceTree = "<group>"; };
+		807AB7A21FE3D51600B7DDC1 /* NSDate+StringDate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDate+StringDate.h"; sourceTree = "<group>"; };
+		807AB7A31FE3D51600B7DDC1 /* NSDate+StringDate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDate+StringDate.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -192,6 +223,9 @@
 		804408581FDFB9A4004FC53B /* patterns */ = {
 			isa = PBXGroup;
 			children = (
+				807AB7A11FE3D48700B7DDC1 /* Decorator */,
+				807AB7931FE3D15200B7DDC1 /* Visitor */,
+				807AB7831FE3CAEA00B7DDC1 /* Iterator */,
 				807AB74F1FE292E100B7DDC1 /* Composite */,
 				807AB73B1FE16EF900B7DDC1 /* Observer */,
 				807AB72E1FE15F8E00B7DDC1 /* Mediator */,
@@ -408,6 +442,48 @@
 			path = Composite;
 			sourceTree = "<group>";
 		};
+		807AB7831FE3CAEA00B7DDC1 /* Iterator */ = {
+			isa = PBXGroup;
+			children = (
+				807AB7841FE3CC0D00B7DDC1 /* ItemInShop.h */,
+				807AB7851FE3CC0D00B7DDC1 /* ItemInShop.m */,
+				807AB7871FE3CC6E00B7DDC1 /* ShopWarehouse.h */,
+				807AB7881FE3CC6E00B7DDC1 /* ShopWarehouse.m */,
+				807AB78A1FE3CCAF00B7DDC1 /* BasicEnumerator.h */,
+				807AB78B1FE3CCAF00B7DDC1 /* BasicEnumerator.m */,
+				807AB78D1FE3CCD600B7DDC1 /* BadItemsEnumerator.h */,
+				807AB78E1FE3CCD600B7DDC1 /* BadItemsEnumerator.m */,
+				807AB7901FE3CD0C00B7DDC1 /* GoodItemsEnumerator.h */,
+				807AB7911FE3CD0C00B7DDC1 /* GoodItemsEnumerator.m */,
+			);
+			path = Iterator;
+			sourceTree = "<group>";
+		};
+		807AB7931FE3D15200B7DDC1 /* Visitor */ = {
+			isa = PBXGroup;
+			children = (
+				807AB7941FE3D23600B7DDC1 /* WarehouseItem.h */,
+				807AB7951FE3D23600B7DDC1 /* WarehouseItem.m */,
+				807AB7971FE3D25200B7DDC1 /* Warehouse.h */,
+				807AB7981FE3D25200B7DDC1 /* Warehouse.m */,
+				807AB79A1FE3D27A00B7DDC1 /* BasicVisitor.h */,
+				807AB79B1FE3D28F00B7DDC1 /* QualityCheckerVisitor.h */,
+				807AB79C1FE3D28F00B7DDC1 /* QualityCheckerVisitor.m */,
+				807AB79E1FE3D2BB00B7DDC1 /* PriceCheckerVisitor.h */,
+				807AB79F1FE3D2BB00B7DDC1 /* PriceCheckerVisitor.m */,
+			);
+			path = Visitor;
+			sourceTree = "<group>";
+		};
+		807AB7A11FE3D48700B7DDC1 /* Decorator */ = {
+			isa = PBXGroup;
+			children = (
+				807AB7A21FE3D51600B7DDC1 /* NSDate+StringDate.h */,
+				807AB7A31FE3D51600B7DDC1 /* NSDate+StringDate.m */,
+			);
+			path = Decorator;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -486,11 +562,16 @@
 				807AB73A1FE1611400B7DDC1 /* ConditioningSystem.m in Sources */,
 				804408751FDFBA46004FC53B /* Toy.m in Sources */,
 				807AB7311FE15FA000B7DDC1 /* SmartHousePart.m in Sources */,
+				807AB7891FE3CC6E00B7DDC1 /* ShopWarehouse.m in Sources */,
 				807AB6DF1FE1266D00B7DDC1 /* Person.m in Sources */,
 				807AB7471FE1710200B7DDC1 /* OtherSubscriber.m in Sources */,
+				807AB79D1FE3D28F00B7DDC1 /* QualityCheckerVisitor.m in Sources */,
 				804408851FDFBC22004FC53B /* GenericIPhone.m in Sources */,
+				807AB7991FE3D25200B7DDC1 /* Warehouse.m in Sources */,
+				807AB7A41FE3D51600B7DDC1 /* NSDate+StringDate.m in Sources */,
 				807AB7411FE1702200B7DDC1 /* StandardSubjectImplementation.m in Sources */,
 				807AB71D1FE1400200B7DDC1 /* ExpensiveHeadphones.m in Sources */,
+				807AB7A01FE3D2BB00B7DDC1 /* PriceCheckerVisitor.m in Sources */,
 				807AB71A1FE13FD700B7DDC1 /* CheapHeadphones.m in Sources */,
 				807AB7561FE298F600B7DDC1 /* Container.m in Sources */,
 				804408721FDFB9F8004FC53B /* Product.m in Sources */,
@@ -504,16 +585,21 @@
 				807AB6EC1FE1295000B7DDC1 /* HighPricePhoneBuilder.m in Sources */,
 				807AB6FF1FE1300300B7DDC1 /* Raven.m in Sources */,
 				804408941FDFBD2F004FC53B /* AppleFactory.m in Sources */,
+				807AB78C1FE3CCAF00B7DDC1 /* BasicEnumerator.m in Sources */,
 				807AB6EF1FE129BE00B7DDC1 /* FactorySalesMan.m in Sources */,
 				8044087B1FDFBACE004FC53B /* ProductGenerator.m in Sources */,
 				807AB7441FE170D700B7DDC1 /* SomeSubscriber.m in Sources */,
+				807AB78F1FE3CCD600B7DDC1 /* BadItemsEnumerator.m in Sources */,
 				804408781FDFBA52004FC53B /* Dress.m in Sources */,
+				807AB7961FE3D23600B7DDC1 /* WarehouseItem.m in Sources */,
 				807AB7091FE132F700B7DDC1 /* Charger.m in Sources */,
 				8044087F1FDFBBEE004FC53B /* IPhoneFactory.m in Sources */,
 				804408691FDFB9A4004FC53B /* main.m in Sources */,
+				807AB7861FE3CC0D00B7DDC1 /* ItemInShop.m in Sources */,
 				807AB7201FE140A200B7DDC1 /* MusicPlayer.m in Sources */,
 				807AB74E1FE1732400B7DDC1 /* KVOObserver.m in Sources */,
 				807AB7531FE2987E00B7DDC1 /* LeafObject.m in Sources */,
+				807AB7921FE3CD0C00B7DDC1 /* GoodItemsEnumerator.m in Sources */,
 				804408881FDFBC68004FC53B /* AppleIPhone.m in Sources */,
 				807AB6FC1FE12F9C00B7DDC1 /* Bird.m in Sources */,
 				807AB7171FE13FA800B7DDC1 /* BaseHeadphones.m in Sources */,
